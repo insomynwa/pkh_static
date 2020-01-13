@@ -339,3 +339,88 @@ body .container{
     font-size:11px;
     margin:0;
 }
+
+#dashboard {
+    padding:50px 0;
+}
+
+#dashboard > div > div {
+    margin-bottom:35px;
+}
+
+#dashboard > div > div:nth-child(1) > div > div {
+    text-align:center;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-header {
+    padding: 10px;
+    background:#1565AE;
+    color:#ffffff;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-header > i {
+    color:#F5C841;
+    font-size: 22px;
+    line-height:27px;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-header > h4 {
+    margin:0;
+    font-size: 18px;
+    line-height:23px;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-header > p {
+    margin: 0;
+    font-size:11px;
+    line-height:15px;
+    color:#eeeeee;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-body {
+    padding:15px 10px;
+}
+
+#dashboard > div > div:nth-child(1) > div > div > div.card-body > p {
+    font-size:16px;
+    line-height:21px;
+    color:#222222;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-header,
+#dashboard > div > div:nth-child(3) > div > div > div.card-header {
+    background:#1565AE;
+    color:#ffffff;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-header > h4,
+#dashboard > div > div:nth-child(3) > div > div > div.card-header > h4 {
+    margin:0;
+    font-size: 18px;
+    line-height:23px;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-header > h4 > i,
+#dashboard > div > div:nth-child(3) > div > div > div.card-header > h4 > i {
+    color:#F5C841;
+    margin-right:15px;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-header > h4 > span,
+#dashboard > div > div:nth-child(3) > div > div > div.card-header > h4 > span {
+    font-size: 12px;
+    line-height:17px;
+    color:#eeeeee;
+    font-style:italic;
+    margin-left:15px;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-body > div > div:nth-child(2) > div > table > tbody:nth-child(1) > tr:nth-child(1) {
+    background:#1B365D;
+    color:#ffffff;
+}
+
+#dashboard > div > div:nth-child(2) > div > div > div.card-body > div > div:nth-child(2) > div > table > tbody:nth-child(1) > tr:nth-child(1) > th {
+    font-weight:400;
+    font-size:13px;
+}
